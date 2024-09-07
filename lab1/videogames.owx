@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/кириллвикторович/ontologies/2024/8/untitled-ontology-2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/кириллвикторович/ontologies/2024/8/untitled-ontology-2">
+    <Prefix name="" IRI="http://www.semanticweb.org/кириллвикторович/ontologies/2024/8/untitled-ontology-2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Developer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platform"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#availableOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#developedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adventure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bethesda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bungie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#civilization"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#firaxis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#halo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mobile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nintendo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nintendo_switch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#playstation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#portal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#puzzle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rockstar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rpg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#shooter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#skyrim"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#strategy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ubisoft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#valve"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#xbox"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Developer"/>
+        <NamedIndividual IRI="#bethesda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Developer"/>
+        <NamedIndividual IRI="#bungie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#civilization"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Developer"/>
+        <NamedIndividual IRI="#firaxis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#halo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#mario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#mobile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Developer"/>
+        <NamedIndividual IRI="#nintendo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#nintendo_switch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#pc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#playstation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#portal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#puzzle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Developer"/>
+        <NamedIndividual IRI="#rockstar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#rpg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#shooter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#skyrim"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#strategy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Developer"/>
+        <NamedIndividual IRI="#ubisoft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Developer"/>
+        <NamedIndividual IRI="#valve"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#xbox"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#availableOn"/>
+        <NamedIndividual IRI="#civilization"/>
+        <NamedIndividual IRI="#pc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedBy"/>
+        <NamedIndividual IRI="#civilization"/>
+        <NamedIndividual IRI="#firaxis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#civilization"/>
+        <NamedIndividual IRI="#strategy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#availableOn"/>
+        <NamedIndividual IRI="#halo"/>
+        <NamedIndividual IRI="#xbox"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedBy"/>
+        <NamedIndividual IRI="#halo"/>
+        <NamedIndividual IRI="#bungie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#halo"/>
+        <NamedIndividual IRI="#shooter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#availableOn"/>
+        <NamedIndividual IRI="#mario"/>
+        <NamedIndividual IRI="#nintendo_switch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedBy"/>
+        <NamedIndividual IRI="#mario"/>
+        <NamedIndividual IRI="#nintendo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#mario"/>
+        <NamedIndividual IRI="#adventure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#availableOn"/>
+        <NamedIndividual IRI="#portal"/>
+        <NamedIndividual IRI="#pc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedBy"/>
+        <NamedIndividual IRI="#portal"/>
+        <NamedIndividual IRI="#valve"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#portal"/>
+        <NamedIndividual IRI="#puzzle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#availableOn"/>
+        <NamedIndividual IRI="#skyrim"/>
+        <NamedIndividual IRI="#pc"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#availableOn"/>
+        <NamedIndividual IRI="#skyrim"/>
+        <NamedIndividual IRI="#playstation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#developedBy"/>
+        <NamedIndividual IRI="#skyrim"/>
+        <NamedIndividual IRI="#bethesda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#skyrim"/>
+        <NamedIndividual IRI="#rpg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#availableOn"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#developedBy"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#availableOn"/>
+        <Class IRI="#Platform"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#developedBy"/>
+        <Class IRI="#Developer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#Genre"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
